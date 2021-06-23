@@ -1,0 +1,7 @@
+.gradle
+.idea
+build
+gradle
+src/main/java/com/generatedclass
+gradlew.bat
+gradlew

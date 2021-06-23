@@ -1,0 +1,16 @@
+syntax = "proto3";
+option java_package = "com.generatedclass.enumtry";
+
+
+message EnumMessage {
+    string name = 1;
+    Mood mood = 2;
+}
+
+enum Mood {
+    UNKNOWN = 0;
+    HAPPY = 1;
+    SAD = 2;
+    LAZY = 3;
+    INSPIRED = 4;
+}
